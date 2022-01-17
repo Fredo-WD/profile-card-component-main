@@ -14,7 +14,7 @@ html {
 
 body {
     background-color: hsl(185, 75%, 39%);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat;
 }
@@ -121,4 +121,13 @@ hr {
     font-weight: 400;
 }
 
+@media all and (max-width:375px) {
+    .card {
+        width: 18rem;
+        height: 24.5rem;
+    }
 
+    .bg-pattern {
+        width: 18rem;
+    }
+}
