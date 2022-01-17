@@ -1,0 +1,124 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.9rem;
+    width: 25rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-pattern {
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    width: 25rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.victor {
+    display: flex;
+    align-self: center;
+    transform: translateY(-3rem);
+    border-radius: 3rem;
+    border: .3rem solid white
+
+}
+
+.victor-name-age-city {
+    transform: translateY(-2rem);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.name{
+    padding-bottom: .1rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.city {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: .1px;
+    /* Set the hr color */
+    color: hsl(0, 0%, 59%); /* old IE */
+    background-color: hsl(0, 0%, 59%); /* Modern Browsers */
+}
+.card-footer {
+    display: flex;
+    height: 6.8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+
+.social-items {
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+    width: 25rem;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number {
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+}
+
+.text {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+
